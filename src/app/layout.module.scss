@@ -1,0 +1,20 @@
+.messenger {
+  display: flex;
+  height: 100svh;
+  overflow-y: hidden;
+
+  &-left {
+    flex: 1 1 auto;
+    max-width: 320px;
+
+    &__chats {
+      max-height: 100svh;
+      scrollbar-width: none;
+      overflow-y: scroll;
+    }
+  }
+
+  &-right {
+    flex: 1 1 auto;
+  }
+}
