@@ -12,4 +12,9 @@ html {
   --white-color: #f6f6f6;
   --orange-color: #bc663e;
   --light-blue-color: #bc663e;
+
+  & a {
+    text-decoration: none;
+    color: var(--white-color);
+  }
 }
