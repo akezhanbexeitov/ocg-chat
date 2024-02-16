@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/main.scss";
 import styles from "./layout.module.scss";
-import ChatCard from "@/components/cards/ChatCard/ChatCard";
+import ChatCard from "@/components/cards/ChatCard";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./ChatCard.module.scss";
+import styles from "./index.module.scss";
 import Link from "next/link";
 
 export default function ChatCard() {
