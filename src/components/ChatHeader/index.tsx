@@ -24,7 +24,7 @@ export default function ChatHeader({ className }: Props) {
         <h1 className={styles["chat-header__title"]}>Chat title</h1>
       </div>
       <div className={styles["chat-header__right"]}>
-        <button>
+        <button type="button">
           <Ellipsis fillColor="#fff" />
         </button>
       </div>
