@@ -1,0 +1,29 @@
+.chat-body {
+  padding: 16px;
+  scrollbar-width: none;
+  overflow-y: scroll;
+
+  &__messages {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  &__message {
+    display: flex;
+    background-color: var(--blue-color);
+    padding: 12px 24px;
+    border-radius: 0 20px 20px 20px;
+    width: fit-content;
+
+    &-mine {
+      display: flex;
+      justify-content: flex-end;
+      padding: 12px 24px;
+      border-radius: 20px 0 20px 20px;
+      background-color: var(--white-color);
+      color: var(--black-color);
+      margin-left: auto;
+    }
+  }
+}
